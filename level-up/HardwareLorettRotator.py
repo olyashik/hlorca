@@ -76,7 +76,7 @@ class Rotator_SerialPort:
                  DEBUG: bool = False
                  ):
 
-        # list(filter(lambda x: 'ACM' in x, map(str, list_ports.comports())))[0].split(' - ')[0]
+        port = list(filter(lambda x: 'ACM' in x, map(str, list_ports.comports())))[0].split(' - ')[0]
 
         self.DEBUG = DEBUG
         
