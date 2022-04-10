@@ -10,8 +10,8 @@ class Main_Lorett_Rotator:
     def __init__(self) -> None:
         self.stationName = 'r8s'
 
-        self.path = 'C:/Users/User/Desktop/Lorett-Rotator-main/level-up'
-        # self.path = '/home/pi/Desktop/Lorett-Rotator/level-up'
+        #self.path = 'C:/Users/User/Desktop/Lorett-Rotator-main/level-up'
+        self.path = '/home/pi/hlorca/level-up'
 
         self.lat = 54.5268
         self.lon = 36.1673
